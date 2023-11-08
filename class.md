@@ -41,4 +41,21 @@ Student Roll No. is 20231409
   - **Private**: Within the class only.
   - **Protected**: Within the class or the child class.
   - **Public**: Can be used by the object or inherited in child class.
-- **Polymophism**: It states that we can utilize an item for multiple tasks.   
+- **Polymophism**: It states that we can utilize an item for multiple tasks. Python allows two kind of overloading.
+  - **Function Overloading**: Same function name with different parameters. eg-
+```bash
+# First product method
+# Takes two argument and print their
+# product
+def product(a, b):
+p = a * b
+print(p)
+# Second product method
+# Takes three argument and print their
+# product
+def product(a, b, c):
+p = a * b * c
+print(p)
+```   
+  - **Operator overloading**: When an operator is re-used for multiple tasks 
+- **Inheritance**
