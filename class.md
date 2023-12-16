@@ -59,3 +59,6 @@ print(p)
 ```   
   - **Operator overloading**: When an operator is re-used for multiple tasks 
 - **Inheritance**
+Most import pillar of OOPs that provides re-usability of code. We can inherit a class into other class and use the members of parent class into child class.
+  - **Method Hiding**: A method of parent class, re-written in child class with same signature and different body contents is called as method hiding.
+  - **Method Overriding**: A virtual or pure virtual method of parent class re-written in child class with same signature and different body contents is called as method overriding. 
