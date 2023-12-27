@@ -1,4 +1,4 @@
-# "__init__"
+# "_ _init_ _"
 __init__ method is like default constructor in C++ and Java.
 
 The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created.
