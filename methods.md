@@ -1,4 +1,4 @@
-# __init__
+# "__init__"
 __init__ method is like default constructor in C++ and Java.
 
 The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created.
@@ -19,4 +19,4 @@ class Person:
 p = Person('Nikhil')
 p.say_hi()
 ```
-# __str__
+# "__str__"
