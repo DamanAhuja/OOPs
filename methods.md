@@ -1,5 +1,5 @@
-# "_ _ init _ _"
-__init__ method is like default constructor in C++ and Java.
+# _ _ init _ _
+_ _ init _ _ method is like default constructor in C++ and Java.
 
 The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created.
 Example - 
@@ -19,4 +19,4 @@ class Person:
 p = Person('Nikhil')
 p.say_hi()
 ```
-# "__str__"
+# _ _ str _ _
