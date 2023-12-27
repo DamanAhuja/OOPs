@@ -36,3 +36,38 @@ employeeObject = Employee('employeeName', 20, 1101)
 
 print(str(employeeObject))
 ```
+# _ _ repr _ _
+The _ _ repr _ _ method in python also returns a string representation of an object which can be used for debugging purposes and development and it must be unambiguous.
+Example - 
+``` bash
+class Employee: 
+    def __init__(self, name, age, id): 
+        self.name = name 
+        self.age = age
+        self.id = id 
+
+    def __repr__(self):
+        return f'Employee(name = {self.name}, age = {self.age}, id = {self.id})'
+
+
+employeeObject = Employee('employeeName', 20, 1101)
+
+print(repr(employeeObject))
+```
+# _ _ del _ _
+_ _ del _ _ is a destructor method which is called as soon as all references of the object are deleted i.e when an object is garbage collected.
+Example - 
+``` bash
+class Example:  
+    # Initializing 
+    def __init__(self): 
+        print("Example Instance.")  
+    # Calling destructor 
+    def __del__(self):  
+        print("Destructor called, Example deleted.")  
+
+obj = Example()  
+
+del obj  
+```
+
