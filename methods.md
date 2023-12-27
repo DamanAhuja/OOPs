@@ -70,4 +70,11 @@ obj = Example()
 
 del obj  
 ```
-
+# _ _ main _ _
+In Python, there is no concept of the main() function, as it is an interpreter based language
+Python includes the special variable called _ _ name _ _ that contains the scope of the code being executed as a string. _ _ main _ _ is the name of the top-level scope in which top-level code executes.
+Example - 
+``` bash
+>>>__name__
+'__main__'
+```
